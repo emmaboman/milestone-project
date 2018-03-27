@@ -2,13 +2,23 @@
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #a3a3a3;
 }
 
+h1 {
+  font-family: 'Kavivanar', cursive;
+  font-size: 90px!important;
+  color: #ffcb2e;
+}
+
+a {
+
+}
 header {
   height: 750px;
 }
 main {
-  height: 2390px;
+  height: 2250px;
 }
 
 #work {
@@ -23,8 +33,26 @@ main {
 
 .full-width {
   width: 1100px;
+  padding: 60px;
 }
 .half-width {
   width: 550px;
   float: left;
+}
+
+/*******Header*******/
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #a3a3a3;
+  font-size: 16px;
+  padding-left: 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header h1, p {
+  text-align: center;
 }
