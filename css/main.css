@@ -37,7 +37,7 @@ main {
   height: 500px;
 }
 #contact {
-  height: 400px;
+  height: 500px;
 }
 
 .full-width {
@@ -86,9 +86,19 @@ header h1, p {
 #work p {
   padding-bottom: 20px;
 }
-
+/************about**********/
+#photoshop {
+  padding-left: 400px;
+  padding-top: 30px;
+}
 /***********contact**********/
 
 #contact {
   background: #f6f6f6;
+  padding:
+}
+
+#contact-image {
+  display: block;
+  margin: auto;
 }
