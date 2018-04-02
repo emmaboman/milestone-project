@@ -27,17 +27,17 @@ header {
   height: 635px;
 }
 main {
-  height: 1500px;
+  height: 1400px;
 }
 
 #work {
-  height: 600px;
+  height: 500px;
 }
 #about {
-  height: 500px;
+  height: 400px;
 }
 #contact {
-  height: 500px;
+  height: 400px;
 }
 
 .full-width {
@@ -48,6 +48,12 @@ main {
 .half-width {
   float: left;
   width: 550px;
+}
+
+.third-width {
+  float: left;
+  padding-top: 60px;
+  width: 366px;
 }
 
 /*******Header*******/
@@ -80,11 +86,13 @@ header h1, p {
 }
 
 .portfolio-image {
-  padding-left: 20px;
+  padding-left: 120px;
+  padding-top: 60px;
 }
 
 #work p {
-  padding-bottom: 20px;
+  text-align: center;
+  padding-left: 120px;
 }
 /************about**********/
 #photoshop {
@@ -95,10 +103,29 @@ header h1, p {
 
 #contact {
   background: #f6f6f6;
-  padding:
 }
 
 #contact-image {
   display: block;
   margin: auto;
+  padding-left: 300px;
+}
+
+#contact-left {
+  height: 300px;
+  padding-top: 60px;
+}
+
+#contact-right {
+  height: 300px;
+  padding-top: 60px;
+}
+
+#contact ul li {
+  display: inline-block;
+  margin: auto;
+}
+
+#contact ul {
+  padding-left: 230px;
 }
