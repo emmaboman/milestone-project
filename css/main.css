@@ -1,19 +1,26 @@
 /******** body ********/
 p {
+  color: #a3a3a3;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #a3a3a3;
+  font-weight: lighter;
 }
 
 h1 {
+  color: #ffcb2e;
   font-family: 'Kavivanar', cursive;
   font-size: 90px!important;
+  font-weight: lighter;
+}
+
+h2 {
   color: #ffcb2e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
 }
 
-a {
-
-}
 header {
   height: 750px;
 }
@@ -33,8 +40,8 @@ main {
 
 .full-width {
   width: 1100px;
-  padding: 60px;
 }
+
 .half-width {
   width: 550px;
   float: left;
@@ -42,12 +49,17 @@ main {
 
 /*******Header*******/
 
+header .full-width {
+  padding: 60px;
+}
+
 nav ul li {
   display: inline-block;
 }
 nav ul li a {
   color: #a3a3a3;
   font-size: 16px;
+  font-weight: lighter;
   padding-left: 60px;
   text-transform: uppercase;
   text-decoration: none;
@@ -56,3 +68,10 @@ nav ul li a {
 header h1, p {
   text-align: center;
 }
+
+#work-definition {
+  word-spacing: 4px;
+  font-style: italic;
+}
+
+/********* work **********/
