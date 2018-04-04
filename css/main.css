@@ -10,7 +10,7 @@ p {
 
 h1 {
   color: black;
-  font-family: 'Kavivanar', cursive;
+  /*font-family: 'Kavivanar', cursive;*/
   font-size: 90px!important;
   font-weight: lighter;
 }
